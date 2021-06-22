@@ -180,6 +180,9 @@ max_num_gauss:  maximum number of Gaussians to try (default = 3)
 
 guesses:        list of guesses (default = {GUESS})
                 format: "[[mid_point, FWHM, amplitude], ..., []]"
+
+
+Type gaussian_fit.py -h or gaussian_fit.py help to bring up this information
         ''')
         sys.exit(1)
     elif len(sys.argv) == 3:
